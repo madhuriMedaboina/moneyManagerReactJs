@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.transaction-text {
+  flex: 1;
+  margin: 0;
+  padding: 4px;
+}
+
+.transaction-text:first-child {
+  flex: 2;
+}
+
+.delete-container {
+  margin-left: 16px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.delete-button:hover img {
+  /* Optionally, you can add some hover effects to the delete button */
+  filter: brightness(0.8);
+}
